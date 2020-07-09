@@ -11,6 +11,11 @@ body {
   background-position: top center;
 }
 
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
 .container {
   max-width: 928px;
   margin: 0 auto;
