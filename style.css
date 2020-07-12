@@ -16,6 +16,8 @@ figcaption {
   font-style: italic;
 }
 
+
+
 .container {
   max-width: 928px;
   margin: 0 auto;
@@ -31,6 +33,19 @@ figcaption {
 .page-footer .container {
   max-width: 1408px;
   text-align: right;
+}
+
+table {
+  width: 928px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+td {
+  border: 2px solid lightblue;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: center;
 }
 
 .page-header a {
