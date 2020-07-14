@@ -84,6 +84,44 @@
         </table>
       </div>
     </section>
+    <section class="main_form">
+      <div class="container form-container">
+        <h2 class="subheading">Нужны мои услуги?</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Оставьте заявку на интересующие услуги</legend>
+            <div class="grid-attempt">              
+              <div class="half-width">
+                <label for="name-field">Ваше имя</label>
+                <input type="text" name="name" id="name-field">
+              </div>
+              <div class="half-width">
+                <label for="site-field">Ваш сайт (если есть)</label>
+                <input type="text" name="site" id="site-field">
+              </div>
+              <div class="half-width">
+                <label for="email-field">Email</label>
+                <input type="email" name="email" id="email-field" placeholder="example@gmail.com" required>
+              </div>
+              <div class="half-width">
+                <label for="phone-field">Телефон</label>
+                <input type="text" name="phone" id="phone-field" placeholder="В формате 89112345678" required>
+              </div>
+            </div>
+            <label for="service-field">Чем могу быть полезен?</label>
+            <select name="service" id="service-field">
+                <option value="html-static">Статичная верстка</option>
+                <option value="html-adaptive">Адаптивная верстка</option>
+                <option value="js">Программирование на JS</option>
+                <option value="web-analytics">Настройка веб-аналитики</option>
+            </select>
+            <input type="checkbox" required> Согласен на обработку персональных данных
+          </fieldset>
+          <input type="submit" value="Оставить заявку" id="submit-button">
+        </form>
+      </div>
+    </section>
+  </body>
     <footer class="page-footer">
       <div class="container">
         <a class="footer-email" href="mailto:not.so.bad@yandex.ru">not.so.bad@yandex.ru</a>

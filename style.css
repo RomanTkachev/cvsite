@@ -215,3 +215,59 @@ td {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
 }
+
+form {
+  width:75%;
+  margin: auto;
+}
+
+label {
+  display: block; 
+}
+
+fieldset {
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  padding-right: 35px;
+  padding-left: 35px;
+
+}
+
+select {
+  width:100%;
+}
+
+input, select {
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.grid-attempt {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;  
+}
+
+#submit-button {
+  display: block;
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 40%;
+  padding: 10px;
+
+
+
+/*label {
+  display: block;
+  
+}
+
+.half-width {
+  display: inline-block;
+  width: 50%;
+  margin-right: -4px;
+}
+*/
